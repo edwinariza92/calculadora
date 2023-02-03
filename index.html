@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <div class="rectangulo1">  </div>
+        <div class="pantalla"><textarea name="" id="pantalla" cols="30" rows="10"></textarea></div> 
+        <div class="operadores">
+            <button class="C" onclick="limpiar()">c</button>
+            <button class="div" onclick="operacion('/')">/</button>
+            <button class="multi" onclick="operacion('*')">x</button>
+            <button class="menos" onclick="operacion('-')">-</button>
+            <button class="mas" onclick="operacion('+')">+</button>
+            <button class="porcentaje" onclick="backspace()"> <=</button>
+            
+        </div> 
+        <div>
+            <button class="uno" onclick="mostrar(1)" value="1"> 1 </button>
+            <button class="dos" onclick="mostrar(2)" value="2"> 2 </button>
+            <button class="tres" onclick="mostrar(3)" value="3"> 3 </button>
+            <button class="cuatro" onclick="mostrar(4)" value="4"> 4 </button>
+            <button class="cinco" onclick="mostrar(5)" value="5"> 5 </button>
+            <button class="seis" onclick="mostrar(6)" value="6"> 6 </button>
+            <button class="siete" onclick="mostrar(7)" value="7"> 7 </button>
+            <button class="ocho" onclick="mostrar(8)" value="8"> 8 </button>
+            <button class="nueve" onclick="mostrar(9)" value="9"> 9 </button>
+            <button class="punto" onclick="punto()" value="."> . </button>
+            <button class="zero" onclick="mostrar(0)" value="0"> 0 </button>
+            <button class="igual" onclick="calcular()"> = </button>
+        </div>
+                
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Edwin Ariza - 2022</p>
+    </footer>
+</body>
+</html>

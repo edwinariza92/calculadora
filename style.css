@@ -1,0 +1,177 @@
+*{
+    background: #9F9090;
+    width: auto;    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rectangulo1{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: #1A1A2E;
+    border-radius: 30px;
+    
+}
+
+#pantalla{
+    position: absolute;
+    width: 301px;
+    height: 208px;
+    left: 18px;
+    top: 14px;
+    background: #AFAFB3;
+    border-radius: 30px;
+    
+}
+
+textarea{
+    
+    text-align: right ;
+    padding: 10px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 28px;
+    color: #000000;
+}
+button{
+    
+    width: 68px;
+    height: 68px;
+    background: rgba(217, 217, 217, 0.78);
+    border-radius: 50%;
+}
+.C,.div,.multi,.menos,.mas,.porcentaje{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+.C:hover,.div:hover,.multi:hover,.menos:hover,.mas:hover,.porcentaje:hover {
+    opacity: 30px;
+    background: gray;
+}
+
+.C{
+    
+    left: 29px;
+    top: 246px;
+}
+
+.div{
+    
+    left: 107px;
+    top: 246px;
+}
+
+.multi{
+      
+    left: 185px;
+    top: 246px; 
+}
+
+.porcentaje{
+    left: 263px;
+    top: 246px;
+    background: red;
+}
+.menos{
+    left: 263px;
+    top: 324px;
+
+}
+.mas{
+    left: 263px;
+    top: 402px;
+}
+
+.uno,.dos,.tres,.cuatro,.cinco,.seis,.siete,.ocho,.nueve,.punto,.zero,.igual{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #4B72A2;
+}
+
+button:hover{
+    background: blue;
+}
+
+.uno{
+    
+    left: 29px;
+    top: 480px;
+   
+}
+
+.dos{
+    left: 107px;
+    top: 480px;    
+}
+
+.tres{
+    left: 185px;
+    top: 480px;
+}
+.cuatro{
+    left: 29px;
+    top: 402px;
+}
+.cinco{
+    left: 107px;
+    top: 402px;
+}
+.seis{
+    left: 185px;
+    top: 402px;
+}
+.siete{
+    left: 29px;
+    top: 324px;
+}
+.ocho{
+    left: 107px;
+    top: 324px;
+}
+.nueve{
+    left: 185px;
+    top: 324px;
+}
+.punto{
+    left: 185px;
+    top: 558px;
+}
+.zero{
+    position: absolute;
+    width: 146px;
+    height: 68px;
+    left: 30px;
+    top: 558px;
+    border-radius: 37px;
+}
+
+.igual{
+    position: absolute;
+    width: 68px;
+    height: 146px;
+    left: 263px;
+    top: 480px;
+    background: #0F3460;
+    border-radius: 37px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/footer.jpg);
+    padding: 40px;
+}
